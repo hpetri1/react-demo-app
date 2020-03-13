@@ -7,13 +7,16 @@ var style = {
     fontFamily: 'Arial'
 }
 
-const title = React.createElement(
-    'h1',
-    {id: 'title', className: 'header', style: style},
-    'This is my React demo app'
-)
+// const title = React.createElement(
+//     'h1',
+//     {id: 'title', className: 'header', style: style},
+//     'This is my React demo app'
+// )
 
 ReactDOM.render(
-    title,
+    <div>
+        <h1>This is my React demo app</h1>
+        <p>Chick this out</p>
+    </div>,
     document.getElementById('root')
 )
